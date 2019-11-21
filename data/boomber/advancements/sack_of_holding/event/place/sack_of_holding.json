@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"place": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"nbt": "{ucit: {id: 'used_sack_of_holding', from: 'boomber:sack_of_holding'}}"
+				}
+			}
+		}
+	},
+	"parent": "boomber:sack_of_holding/event/root",
+	"rewards": {
+		"function": "boomber:sack_of_holding/event/place/sack_of_holding"
+	}
+}

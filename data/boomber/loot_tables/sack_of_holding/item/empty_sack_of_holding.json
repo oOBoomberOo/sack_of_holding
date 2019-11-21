@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{"text": "Sack of Holding <Empty>", "color": "white", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Unbreakable: 1b, CustomModelData: 8081000, ucit: {id: 'empty_sack_of_holding', from: 'boomber:sack_of_holding'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

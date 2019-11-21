@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chest",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{"text": "Sack of Holding <Used>", "color": "white", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8081010, ucit: {id: 'used_sack_of_holding', from: 'boomber:sack_of_holding'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

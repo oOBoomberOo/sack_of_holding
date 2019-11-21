@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "boomber:sack_of_holding/empty_sack_of_holding"
+			}
+		}
+	},
+	"parent": "boomber:sack_of_holding/event/root",
+	"rewards": {
+		"function": "boomber:sack_of_holding/event/recipe/empty_sack_of_holding"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"#X#",
+		"XDX",
+		"#X#"
+	],
+	"key": {
+		"#": {
+			"tag": "minecraft:wool"
+		},
+		"X": {
+			"item": "minecraft:leather"
+		},
+		"D": {
+			"item": "minecraft:gold_ingot"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}
