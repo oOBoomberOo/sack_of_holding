@@ -1,19 +1,18 @@
 {
 	"display": {
-		"title": "Sack of Holding v1.0.0",
+		"title": "Boomber",
 		"description": "",
 		"icon": {
-			"item": "minecraft:chest",
-			"nbt": "{CustomModelData: 8081010}"
-		},
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner: 'Boomber'}"
+	 	},
 		"announce_to_chat": false,
 		"show_toast": false
 	},
-	"parent": "boomber:boomber",
+	"parent": "global:root",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:tick"
 		}
-	
 	}
 }

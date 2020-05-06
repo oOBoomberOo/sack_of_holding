@@ -1,0 +1,19 @@
+{
+	"display": {
+		"title": "Sack of Holding",
+		"description": "",
+		"icon": {
+			"item": "minecraft:chest",
+			"nbt": "{CustomModelData: 8081010}"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	
+	}
+}

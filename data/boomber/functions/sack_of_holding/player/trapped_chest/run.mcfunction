@@ -1,2 +1,2 @@
 execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:trapped_chest unless entity @e[tag=global.ignore, distance=..0.5] run function boomber:sack_of_holding/player/trapped_chest/end
-execute as @s[distance=..5.5] if score #bb.sh.raycast bb.success matches 0 positioned ^ ^ ^0.1 run function boomber:sack_of_holding/player/trapped_chest/run
+execute as @s[distance=..5.5] if score #raycast bb.sh.var matches 0 positioned ^ ^ ^0.1 run function boomber:sack_of_holding/player/trapped_chest/run

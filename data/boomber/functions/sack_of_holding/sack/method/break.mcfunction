@@ -1,0 +1,1 @@
+playsound entity.item.break player @a

@@ -1,5 +1,4 @@
 {
-	"type": "minecraft:item",
 	"pools": [
 		{
 			"rolls": 1,
@@ -16,7 +15,13 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Unbreakable: 1b, CustomModelData: 8081000, ucit: {id: 'empty_sack_of_holding', from: 'boomber:sack_of_holding'}}"
+							"tag": "{CustomModelData: 8081000, ctc: {id: 'empty_sack_of_holding', from: 'boomber:sack_of_holding', traits: ['item']}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{"text": "Durability: 0/0", "color": "gray", "italic": false}
+							]
 						}
 					]
 				}

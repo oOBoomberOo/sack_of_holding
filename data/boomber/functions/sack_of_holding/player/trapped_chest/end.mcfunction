@@ -4,4 +4,4 @@ execute as @e[type=item, nbt={Item: {tag: {ucit: {id: "used_sack_of_holding", fr
 replaceitem entity @s weapon.mainhand minecraft:air
 execute if block ~ ~ ~ minecraft:trapped_chest[waterlogged=false] run setblock ~ ~ ~ minecraft:air
 execute if block ~ ~ ~ minecraft:trapped_chest[waterlogged=true] run setblock ~ ~ ~ minecraft:water
-scoreboard players set #bb.sh.raycast bb.success 1
+scoreboard players set #raycast bb.sh.var 1
