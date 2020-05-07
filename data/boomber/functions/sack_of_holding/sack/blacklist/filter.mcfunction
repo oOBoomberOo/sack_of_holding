@@ -1,6 +1,6 @@
 #define score_holder #success
 scoreboard players set #success bb.sh.var 0
-execute if score #success bb.sh.var matches 0 if data storage boomber:sack_of_holding calculation.tag.ucit{id: "used_sack_of_holding", from: "boomber:sack_of_holding"} run function boomber:sack_of_holding/sack/blacklist/drop_item
+execute if score #success bb.sh.var matches 0 if data storage boomber:sack_of_holding calculation.tag.ctc{id: "used_sack_of_holding", from: "boomber:sack_of_holding"} run function boomber:sack_of_holding/sack/blacklist/drop_item
 execute if score #success bb.sh.var matches 0 if data storage boomber:sack_of_holding calculation{id: "minecraft:shulker_box"} run function boomber:sack_of_holding/sack/blacklist/drop_item
 execute if score #success bb.sh.var matches 0 if data storage boomber:sack_of_holding calculation{id: "minecraft:white_shulker_box"} run function boomber:sack_of_holding/sack/blacklist/drop_item
 execute if score #success bb.sh.var matches 0 if data storage boomber:sack_of_holding calculation{id: "minecraft:orange_shulker_box"} run function boomber:sack_of_holding/sack/blacklist/drop_item

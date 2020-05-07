@@ -4,7 +4,7 @@
 			"trigger": "minecraft:placed_block",
 			"conditions": {
 				"item": {
-					"nbt": "{ucit: {id: 'used_sack_of_holding', from: 'boomber:sack_of_holding'}}"
+					"nbt": "{ctc: {id: 'used_sack_of_holding', from: 'boomber:sack_of_holding'}}"
 				}
 			}
 		}

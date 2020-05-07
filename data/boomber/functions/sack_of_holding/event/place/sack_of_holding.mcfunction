@@ -1,9 +1,9 @@
 #define score_holder #hand
 
 # Mainhand
-execute if data entity @s SelectedItem.tag.ucit{id: "used_sack_of_holding", from: "boomber:sack_of_holding"} run scoreboard players operation #hand bb.sh.var = #hand.right bb.sh.enum
+execute if data entity @s SelectedItem.tag.ctc{id: "used_sack_of_holding", from: "boomber:sack_of_holding"} run scoreboard players operation #hand bb.sh.var = #hand.right bb.sh.enum
 # Offhand
-execute unless data entity @s SelectedItem.tag.ucit{id: "used_sack_of_holding", from: "boomber:sack_of_holding"} run scoreboard players operation #hand bb.sh.var = #hand.left bb.sh.enum
+execute unless data entity @s SelectedItem.tag.ctc{id: "used_sack_of_holding", from: "boomber:sack_of_holding"} run scoreboard players operation #hand bb.sh.var = #hand.left bb.sh.enum
 
 data merge storage boomber:sack_of_holding {data: {}}
 execute if score #hand bb.sh.var = #hand.left bb.sh.enum run data modify storage boomber:sack_of_holding data set from entity @s Inventory[{Slot: -106b}].tag

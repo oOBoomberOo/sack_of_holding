@@ -15,12 +15,12 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 8081000, ctc: {id: 'empty_sack_of_holding', from: 'boomber:sack_of_holding', traits: ['item']}}"
+							"tag": "{CustomModelData: 8081000, durability: {current: 100, max: 100}, ctc: {id: 'empty_sack_of_holding', from: 'boomber:sack_of_holding', traits: ['item']}}"
 						},
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
-								{"text": "Durability: 0/0", "color": "gray", "italic": false}
+								{"text": "Durability: 100/100", "color": "gray", "italic": false}
 							]
 						}
 					]
