@@ -1,0 +1,6 @@
+{
+	"parent": "block/barrel",
+	"overrides": [
+		{"predicate": {"custom_model_data": 8081010}, "model": "boomber:sack_of_holding/item/used_sack_of_holding"}
+	]
+}
